@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>travelyooo...</title>
+</head>
+<body>
+    <header class="container-fluid px-0">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">travelyooo...</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#whereto" id="turlarlink">Turlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tumturlar.html">Tüm Turlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" id="contactlink">İletişim</a>
+              </li>
+            </ul>
+            <form class="d-flex" action="tumturlar.html" method="GET">
+              <input class="form-control me-2" name="q" type="search" placeholder="Tur Ara" aria-label="Search">
+              <button class="btn btn-success btn-search-custom" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid px-0 mt-5">
+      <div class="banner">
+        <video autoplay muted loop>
+          <source src="bg-vid.webm" type="video/webm">
+          <source src="bg-vid.mp4" type="video/mp4">
+        </video>
+        <div class="banner-inside text-white text-center">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="display-1 text-white text-center">travelyooo...</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p class="mt-4">bir yolculuktan daha fazlası...</p>
+            </div>
+        </div>  
+          <div class="row">
+            <div class="col-12">
+              <a href="tumturlar.html" class="btn btn-lg btn-warning rounded-pill mt-md-5">Tüm Turlar'a Göz At</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="container">
+      <div class="row my-5" id="whereto">
+        <div class="col-12 text-center">
+          <h2 class="sub-title">Nereye gitmek istersiniz?</h2>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-lg-4 col-md-6 col-10 offset-md-0 offset-1 my-md-0 my-5 travel-cards-container">
+          <div class="card card-travel" data-text="13.200 ₺" data-star="&starf;&starf;&starf;&starf;&starf;">
+            <img src="https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80" class="card-img-top position-relative" alt="ingiltere">
+            <div class="card-body">
+              <h5 class="card-title my-4">İngiltere</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning d-block mt-4">Rezervasyon yap...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-10 offset-md-0 offset-1 my-md-0 my-2 travel-cards-container">
+          <div class="card card-travel" data-text="25.200 ₺" data-star="&starf;&starf;&starf;&starf;&star;">
+            <img src="https://images.unsplash.com/photo-1573611030146-ff6916c398fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNwYWlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="ingiltere">
+            <div class="card-body">
+              <h5 class="card-title my-4">İspanya</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning d-block mt-4">Rezervasyon yap...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-10 offset-md-0 offset-1 d-lg-block d-md-none d-block my-md-0 my-5 travel-cards-container">
+          <div class="card card-travel" data-text="13.200 ₺" data-star="&starf;&starf;&starf;&starf;&starf;">
+            <img src="https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80" alt="ingiltere">
+            <div class="card-body">
+              <h5 class="card-title my-4">İtalya</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-warning d-block mt-4">Rezervasyon yap...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          
+        </div>
+      </div>
+    </main>
+    <section class="conatiner-fluid mt-5">
+      <div class="row map-container position-relative px-0 mx-0">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1584931423298-c576fda54bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="map">
+        <div class="nereye">
+          <h3 class="text-white my-0">zimbabwe</h3>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid contactor" id="contact">
+      <div class="container">
+        <div class="row my-0">
+          <div class="col-12 text-center text-white my-5">
+            <h2 class="sub-title">Bizimle iletişime geçin...</h2>
+          </div>
+        
+          <form class="col-10 offset-1 mb-5 bg-white bg-opacity-75 p-5 rounded-3 needs-validation">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">e-postanız</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ornek@ornek.com" required>
+              <div id="emailHelp" class="form-text">Eposta adresinizi kimse ile paylaşmayacağız...</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputMessage" class="form-label">Mesajınız</label>
+              <textarea class="form-control" id="exampleInputMessage" aria-describedby="inputMessageHelp" placeholder="Mesajınız" maxlength="240" required></textarea>
+              <div id="inputMessageHelp" class="form-text">Lütfen 240 karakterden uzun mesaj göndermeyin. Kişisel bilgilerinizi paylaşmayın.</div>
+            </div>
+            <button type="submit" class="btn btn-outline-dark rounded-pill px-5">Gönder</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid bg-dark text-white py-3">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <p class="mb-0 small text-muted">&copy; 2022 Mustafa Yatağan &gt; </p><p class="mt-0 pt-0 small text-muted">images: <a href="https://unsplash.com/" target="_blank">unsplash</a> | videos: <a href="https://www.pexels.com/videos/" target="_blank">pexels</a> | icons: <a href="https://icons.getbootstrap.com/" target="_blank">bootstrap</a> & <a href="https://unicode-table.com/" target="_blank">unicode table emoji finder</a> | video-converter: <a href="https://ffmpeg.org/" target="_blank">ffmpeg</a></p>
+          </div>
+        </div>
+    </footer>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="ulkeler.js"></script>
+</body>
+</html>
